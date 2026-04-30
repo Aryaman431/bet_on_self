@@ -1,0 +1,57 @@
+# Reduce Docker build context size
+
+# VCS
+.git
+.gitignore
+
+# Node / Next.js
+node_modules
+.next
+out
+coverage
+
+# Python virtual envs
+mlenv
+venv
+.venv
+
+# Python caches
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Logs & misc
+*.log
+npm-debug.log*
+yarn-debug.log*
+.pnpm-debug.log*
+
+# Env files (handled separately)
+.env
+.env.*
+
+# Build / dist artifacts
+build
+dist
+.cache
+
+# IDE / editor
+.vscode
+.idea
+*.swp
+
+# Jupyter notebooks (exclude if you don't need them in image)
+*.ipynb
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Optional: uncomment to exclude large model files you mount at runtime
+# *.pt
+# *.pth
+
+# Keep Dockerfiles and requirements
+!requirements.txt
+!ml/Dockerfile
