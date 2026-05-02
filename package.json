@@ -24,6 +24,10 @@
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-number-format": "^5.4.4",
+<<<<<<< HEAD
+=======
+    "stellar-sdk": "^13.3.0",
+>>>>>>> 6d6b1791cab816d1014e9651a83fed8a53e1cec0
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.13"
   },
