@@ -1,8 +1,0 @@
-[package]
-name = "bet_on_self"
-version = "1.0.0"
-language = "2"
-
-[dependencies]
-Aptos = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "mainnet" }
-AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/move-stdlib", rev = "mainnet" }
