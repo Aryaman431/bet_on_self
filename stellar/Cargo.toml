@@ -1,0 +1,23 @@
+[package]
+name = "bet_on_self_stellar"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+soroban-sdk = "=21.4.0"
+soroban-sdk-macro = "=21.4.0"
+
+[[test]]
+name = "integration"
+path = "tests/integration.rs"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+overflow-checks = true
+
+[profile.release-with-logs]
+inherits = "release"
+debug = true
+debug-assertions = true

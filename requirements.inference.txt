@@ -1,0 +1,7 @@
+# Minimal deps for inference only (no training, plotting, pandas, sklearn)
+fastapi==0.116.1
+uvicorn==0.35.0
+numpy==2.1.2
+torch==2.8.0
+# If your model uses torchvision transforms remove this comment and uncomment next line
+# torchvision==0.23.0
